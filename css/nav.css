@@ -1,0 +1,48 @@
+ 
+  nav {
+    display: flex; 
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 20px 100px; 
+  }
+  
+  .logo, ol, li a:hover, div#about h3, div#work h3, div#contact h3 {
+    color: #afffdf; 
+    font-family: 'dico code one';
+  }
+  
+  nav img{
+    max-width: 40px;
+  }
+
+  nav img:hover {
+      text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+  }
+  
+  ol {
+    list-style: none; 
+  }
+  
+  ol, ol li {
+    display: inline-block; 
+  }
+  
+  
+  li a{
+    color: #f3f3f3; 
+    margin: 20px 20px 20px 5px; 
+      text-decoration: none; 
+  }
+  
+  li a:hover {
+    cursor: pointer; 
+  }
+  

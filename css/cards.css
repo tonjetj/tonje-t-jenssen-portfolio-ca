@@ -1,0 +1,15 @@
+section.one, section.two, section.three, .card {
+    border: 1px solid #afffdf;
+    border-radius: 10px;
+  
+}
+
+
+.card {
+  background-color: #384b6b;
+  padding: 20px; 
+  min-height: 100px; 
+  min-width: 200px; 
+  margin-top: 80px; 
+  
+}
