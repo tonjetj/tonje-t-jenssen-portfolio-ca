@@ -1,0 +1,122 @@
+html {
+    scroll-behaviour: smooth; 
+  }
+  
+  body {
+    background-color: #0b1b32;
+    scroll-behavior: smooth; 
+    margin: 0; 
+  }
+  
+  body {
+    display: grid; 
+    grid-template-column: repeat(12, 1fr); 
+  }
+  
+  /* Header navigation */
+  
+  header{
+    grid-column: 1/13; 
+  }
+  
+  nav {
+    display: flex; 
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 0 60px; 
+  }
+  
+  .logo, ol, li a:hover, div#about h3, div#work h3, div#contact h3 {
+    color: #afffdf; 
+    font-family: 'dico code one';
+  }
+  
+  .logo{
+    font-size: 25px;
+  }
+  
+  ol {
+    list-style: none; 
+  }
+  
+  ol, ol li {
+    display: inline-block; 
+  }
+  
+  
+  li a{
+    color: #f3f3f3; 
+    margin: 20px 20px 20px 5px; 
+      text-decoration: none; 
+  }
+  
+  li a:hover {
+    cursor: pointer; 
+  }
+  
+  /* Main Section */
+  
+  main {
+    grid-column: 1/13; 
+    padding: 0px 100px; 
+  }
+  
+  .section.bubble, section.one, section.two, section.three {
+    display: flex;  
+  }
+  
+  section.bubble {  
+    transition: ease 0.6s; 
+    padding: 150px;
+    background-color: #f5d2a7;  
+    max-width: 800px;
+    max-height: 350px;
+    border-radius: 80% 50% 20% 50% / 60% 80% 30% 70%;
+    margin: 50px 100px 300px 100px; 
+  }
+  
+  .bubble .intro {
+    padding: 80px; 
+    margin: 40px 0 60px 0;
+  }
+  
+  h1, h2, p {
+    font-family: 'open sans';
+    margin: 0; 
+    padding:0; 
+    color: #0b1b32; 
+  }
+  
+  h1 {
+    font-size: 45px; 
+    color: #000; 
+    font-weight: 800; 
+    
+  }
+  
+  section.one, section.two, section.three, .card {
+      border: 1px solid #afffdf;
+      border-radius: 10px;
+    
+  }
+  
+  section.one, section.two, section.three {  
+    max-width: 800px; 
+    min-height: 600px; 
+    margin: 300px; 
+    padding: 20px 50px 20px 20px; 
+  }
+  
+  div#about, div#work, div#contact {
+    padding: 20px 100px 100px 100px; 
+  }
+  
+  .card {
+    background-color: #384b6b;
+    padding: 20px; 
+    min-height: 100px; 
+    min-width: 200px; 
+    margin-top: 80px; 
+    
+  }
+  
