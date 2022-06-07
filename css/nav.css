@@ -3,7 +3,7 @@
     display: flex; 
     align-items: center;  
     justify-content: space-between; 
-    padding: 20px 100px; 
+    padding: 10px 100px; 
     position: fixed;
     width: 90%;
   }
@@ -14,7 +14,7 @@
   
   .logo, ol, li a:hover, div#about h3, div#work h3, div#contact h3 {
     color: #afffdf; 
-    font-family: 'dico code one';
+    font-family: 'Fira Code', monospace;
   }
   
   nav img{
@@ -79,4 +79,5 @@
     position: fixed; 
     margin-left: -40px; 
   }
+
 }

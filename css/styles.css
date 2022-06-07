@@ -4,4 +4,7 @@
 @import "./bubble.css";
 @import "./headings.css";
 
-  
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+}
