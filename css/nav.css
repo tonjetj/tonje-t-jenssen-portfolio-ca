@@ -12,7 +12,7 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   
-  .logo, ol, li a:hover, div#about h3, div#work h3, div#contact h3 {
+  .logo, ol, li a:hover, div#about h3, div#work h3, div#contact h3, nav i {
     color: #afffdf; 
     font-family: 'Fira Code', monospace;
   }
@@ -50,6 +50,9 @@
     nav {
     background-color: #0b1b32;
     }
+    nav .menu-icon {
+    display: none; 
+      }
 }
 
 @media (max-width: 768px){
@@ -57,7 +60,7 @@
     nav {
     width: 95%;
     padding-left: 60px;
-    justify-content: space-between;
+    display: block;
   }
     
     nav.scrolled {
@@ -68,9 +71,15 @@
         font-size: 11px;
     }
 
+    ol li {
+        display: inline-block;
+    }
+
     .logo {
         max-width: 50px;
     }
+
+
   
 }
 
@@ -78,6 +87,21 @@
   nav{
     position: fixed; 
     margin-left: -40px; 
+  }
+
+  .menu-btn {
+      display: none;
+  }
+
+  .menu-icon {
+      display: inline-block;
+      justify-content: space-between;
+      float: right;  
+      padding-right: 20px;
+      font-size: 30px;
+}
+  nav .menu-btn:checked ~ .menu {
+    max-height: 250px;
   }
 
 }
