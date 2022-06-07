@@ -39,6 +39,15 @@ html {
   }
   
   div#about, div#work, div#contact {
-    padding: 20px 100px 100px 100px; 
+    padding: 60px 100px 100px 100px; 
     z-index: 2;
+  }
+
+
+  /*layout on smaller screens*/
+  @media (max-width: 768px){
+    section.bubble {
+        max-width: 200px;
+        max-height: 150px;
+      }
   }
