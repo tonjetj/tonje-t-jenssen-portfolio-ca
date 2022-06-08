@@ -24,10 +24,10 @@
   .underline::before{
     content: '';
     position: absolute;
-    bottom: 19px;
+    bottom: 28px;
     right: 0;
     width: 0;
-    height: 0.5px;
+    height: 1px;
     background-color: #afffdf;
     transition: width 0.3s cubic-bezier(0.25, 1, 0.25, 1);
   }
