@@ -1,5 +1,8 @@
 const nav = document.querySelector("nav");
 
+const menu = document.querySelectorAll("ul a");
+const dropdown = document.querySelector(".menu");
+
 function handleScroll() {
   console.log(window.scrollY);
 
@@ -15,3 +18,11 @@ function handleScroll() {
 window.onscroll = handleScroll;
 
 window.addEventListener("scroll", handleScroll);
+
+menu.onclick = function () {
+  if (onlclick === true) {
+    dropdown.display = "";
+  } else {
+    dropdown.display = "show";
+  }
+};
