@@ -66,6 +66,24 @@
           font-size: 25px;
     }
 
+    
+    .technologies img{
+        width: 20px;
+    }
+
+    .technologies {
+        list-style: none;
+        display: inline;
+    }
+
+    .technologies li p{
+        margin-left: 20px;
+    }
+
+    .technologies li p, .technologies img  {
+        align-items: center;
+    }
+
 
 
     /* arrow animation */

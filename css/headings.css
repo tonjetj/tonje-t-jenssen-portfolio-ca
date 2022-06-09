@@ -4,11 +4,11 @@ h1, h2, .one .copy .text{
     padding:0;
   }
 
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .copy p {
+  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p {
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, div#work h3, div#contact h3, nav i {
+  .logo, ol, li a, div#work h3, div#contact h3, nav i, .technologies li p {
     color: #afffdf; 
   }
   
@@ -48,5 +48,13 @@ h1, h2, .one .copy .text{
   .one .copy .text {
      margin-top: 20px;
      font-size: 15px;
+  }
+
+  .technologies {
+      align-items: center;
+      display: inline;
+  }
+  .technologies li p{
+      display: inline;
   }
  
