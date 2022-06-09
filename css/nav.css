@@ -6,31 +6,15 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
   }
 
   nav.scrolled {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i {
-    color: #afffdf; 
-    font-family: 'Fira Code', monospace;
-  }
 
-  .underline{
-    position: relative;
-  }
-  
-  .underline::before{
-    content: '';
-    position: absolute;
-    bottom: 28px;
-    right: 0;
-    width: 0;
-    height: 1px;
-    background-color: #afffdf;
-    transition: width 0.3s cubic-bezier(0.25, 1, 0.25, 1);
-  }
+
   
   
   nav .logo{
@@ -49,6 +33,10 @@
     display: block;
     padding: 20px 20px;
     text-decoration: none;
+  }
+
+  nav li a:hover {
+      color: #f3f3f3;
   }
 
   
@@ -105,13 +93,7 @@
     display: none;
   }
 
-  @media (hover: hover) and (pointer: fine) {
-    .underline:hover::before{
-      left: 0;
-      right: auto;
-      width: 100%;
-    }
-  }
+
 
   
   @media (min-width: 768px) {

@@ -20,12 +20,11 @@ html {
   main {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
-    grid-column: 2/11; 
-    margin: 0px 100px; 
+    grid-column: 2/11;  
     justify-content: center;
   }
   
-  .section.bubble, section.one, section.two, section.three { 
+  section.one, section.two, section.three { 
     overflow: hidden;
     justify-content: space-between;
   }
@@ -48,7 +47,8 @@ html {
   @media (max-width: 768px){
 
     main {
-        grid-column: 1/13;
+        display: flex;
+        margin: auto;
     }
 
   }
