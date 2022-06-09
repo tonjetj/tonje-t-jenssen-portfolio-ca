@@ -68,6 +68,12 @@
           font-size: 25px;
     }
     
+    .one span {
+        font-size: 30px;
+        margin-bottom: 5px;
+        color: #0b1b32;
+        text-decoration: line-through #afffdf;
+    }
     /* arrow animation */
     .arrow{
     position: absolute;
