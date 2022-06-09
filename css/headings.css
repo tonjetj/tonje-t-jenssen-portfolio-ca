@@ -8,7 +8,7 @@ h1, h2, .one .copy .text{
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, div#work h3, div#contact h3, nav i, .technologies li p {
+  .logo, ol, li a, div#work h3, div#contact h3, nav i {
     color: #afffdf; 
   }
   

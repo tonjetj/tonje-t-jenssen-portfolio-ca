@@ -74,15 +74,19 @@
     .technologies {
         list-style: none;
         display: inline;
+        align-items: center;
+    }
+
+    .technologies li {
+        margin: 10px 0 10px 0;
+        padding: 20px 0 20px 0;
+        align-items: center;
     }
 
     .technologies li p{
         margin-left: 20px;
     }
 
-    .technologies li p, .technologies img  {
-        align-items: center;
-    }
 
 
 
