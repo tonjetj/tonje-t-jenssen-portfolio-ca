@@ -38,8 +38,8 @@
   
   @media (min-width: 200px){
 
-    
-    .intro, .one {
+    /*Intro section*/
+    .intro, .one, .two {
         padding: 20px;
         min-width: 250px;
         text-align: left;
@@ -67,6 +67,7 @@
           font-size: 25px;
     }
 
+    /*About section*/
     
     .technologies img{
         width: 20px;
@@ -86,9 +87,8 @@
 
     .technologies li p{
         margin-left: 20px;
+        display: inline;
     }
-
-
 
 
     /* arrow animation */
@@ -132,4 +132,4 @@
     }
 }
 
-  }
+  

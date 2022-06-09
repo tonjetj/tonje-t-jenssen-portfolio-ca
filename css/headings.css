@@ -1,4 +1,4 @@
-h1, h2, .one .copy .text{
+h1, h2, .copy .text{
     font-family: 'Poppins', sans-serif;
     margin: 0; 
     padding:0;
@@ -8,7 +8,7 @@ h1, h2, .one .copy .text{
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, div#work h3, div#contact h3, nav i {
+  .logo, ol, li a, h3, div#contact h3, nav i {
     color: #afffdf; 
   }
   
@@ -20,7 +20,7 @@ h1, h2, .one .copy .text{
 
   /* for intro section */
 
-  .intro .copy h1, .one .copy p {
+  .intro .copy h1, .copy p {
       color: #c0c8d4;
   }
 
@@ -28,33 +28,26 @@ h1, h2, .one .copy .text{
       color: #c0c8d4d6;
   }
 
-  .intro .copy p,  .one .copy h3, .one .copy .number {
+  .intro .copy p,  .one .copy h3, .one .copy .number, .two .copy .number, .two .copy h3 {
       color: #f5d2a7;
   }
 
-  .intro .copy p, .one .copy h3,  .one .copy .number{
+  .intro .copy p, .one .copy h3,  .one .copy .number, .two .copy .number{
     font-size: 17px;
 }
 
   /* For about section */
-  .one .copy .number, .one .copy h3 {
+  .one .copy .number, .one .copy h3, .two .copy .number, .two .copy h3 {
       display: inline;
       font-weight: lighter; 
     }
-  .one .copy h3 {
+  .one .copy h3, .two .copy h3{
       padding-left: 10px;
   }
 
-  .one .copy .text {
+ .copy .text {
      margin-top: 20px;
      font-size: 15px;
   }
 
-  .technologies {
-      align-items: center;
-      display: inline;
-  }
-  .technologies li p{
-      display: inline;
-  }
  
