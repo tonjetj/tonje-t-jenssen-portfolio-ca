@@ -1,7 +1,9 @@
-h1, h2, .copy .text{
+h1, h2, .copy .text, .card h4{
     font-family: 'Poppins', sans-serif;
+  }
+  h1, h2, .copy .text{
     margin: 0; 
-    padding:0;
+    padding: 0;
   }
 
   .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p {
@@ -20,7 +22,7 @@ h1, h2, .copy .text{
 
   /* for intro section */
 
-  .intro .copy h1, .copy p {
+  .intro .copy h1, .copy p, h4 {
       color: #c0c8d4;
   }
 
@@ -49,5 +51,32 @@ h1, h2, .copy .text{
      margin-top: 20px;
      font-size: 15px;
   }
+
+  /*Work section*/
+
+  .card h4{
+    font-size: 22px;
+  }
+
+  h4 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: right;
+}
+h4:before, h4:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 45%;
+    height: 1px;
+    content: '\a0';
+    background-color: #c0c8d4d6;
+}
+h4:before {
+    margin-left: -62%;
+    text-align: left;
+}
+
 
  

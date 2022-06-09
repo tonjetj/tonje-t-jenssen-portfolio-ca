@@ -81,13 +81,29 @@
 
     .technologies li {
         margin: 10px 0 10px 0;
-        padding: 20px 0 20px 0;
+        padding: 20px 0 20px 30px;
         align-items: center;
     }
 
     .technologies li p{
         margin-left: 20px;
         display: inline;
+    }
+
+    /* work section */
+
+    .card .screenshot {
+        background-size: cover;
+        min-width: 250px;
+        min-height: 200px;
+        opacity: 0.5;
+        background-repeat: no-repeat;
+    }
+
+    .card .screenshot:hover {
+        opacity: 1;
+        transition: 0.3s ease-in;
+        cursor: pointer;
     }
 
 
@@ -130,6 +146,4 @@
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
-}
-
-  
+}}
