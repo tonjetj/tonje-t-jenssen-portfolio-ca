@@ -1,8 +1,7 @@
-h1, h2, p {
+h1, h2, .one .copy .text{
     font-family: 'Poppins', sans-serif;
     margin: 0; 
-    padding:0; 
-    color: #0b1b32; 
+    padding:0;
   }
 
   .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .copy p {
@@ -21,7 +20,7 @@ h1, h2, p {
 
   /* for intro section */
 
-  .intro .copy h1 {
+  .intro .copy h1, .one .copy p {
       color: #c0c8d4;
   }
 
@@ -29,20 +28,25 @@ h1, h2, p {
       color: #c0c8d4d6;
   }
 
-  .intro .copy p,  .one .copy h3, .one .copy p {
+  .intro .copy p,  .one .copy h3, .one .copy .number {
       color: #f5d2a7;
   }
 
-  .intro .copy p, .one .copy h3,  .one .copy p{
+  .intro .copy p, .one .copy h3,  .one .copy .number{
     font-size: 17px;
 }
 
   /* For about section */
-  .one .copy p, .one .copy h3 {
+  .one .copy .number, .one .copy h3 {
       display: inline;
       font-weight: lighter; 
     }
   .one .copy h3 {
       padding-left: 10px;
+  }
+
+  .one .copy .text {
+     margin-top: 20px;
+     font-size: 15px;
   }
  
