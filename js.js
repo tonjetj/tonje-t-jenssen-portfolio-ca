@@ -18,11 +18,3 @@ function handleScroll() {
 window.onscroll = handleScroll;
 
 window.addEventListener("scroll", handleScroll);
-
-menu.onclick = function () {
-  if (onlclick === true) {
-    dropdown.display = "";
-  } else {
-    dropdown.display = "show";
-  }
-};

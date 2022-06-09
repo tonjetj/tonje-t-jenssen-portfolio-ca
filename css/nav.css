@@ -59,7 +59,6 @@
     max-height: 0;
     transition: max-height .2s ease-out;
   }
-  
   /* menu icon */
   
   nav .menu-icon {
@@ -174,4 +173,5 @@
         top: 0;
       }
   }
+
   

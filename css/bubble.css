@@ -14,5 +14,44 @@
     padding: 80px; 
     margin: 40px 0 60px 0;
   }
+
+ 
   
   
+  /*layout on smaller screens*/
+  @media (min-width: 768px){
+    .intro br {
+        display: none;
+    }
+
+  }
+  @media (max-width: 768px){
+
+    section.bubble {
+        max-width: 200px;
+        max-height: 200px;
+        margin-top: 200px;
+        margin-left: -150px;
+        max-width: 400px;
+        background-color: #afffdf;
+        overflow: none;
+    }
+
+    .bubble .intro {
+        padding: 0;
+    }
+  }
+  
+  @media (min-width: 200px){
+
+
+      .intro p{
+          font-size: 14px;
+      }
+
+      .intro h1 {
+          font-size: 30px;
+          
+      }
+
+  }
