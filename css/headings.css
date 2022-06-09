@@ -6,11 +6,11 @@ h1, h2, .copy .text, .card h4{
     padding: 0;
   }
 
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p {
+  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p, .links a {
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, h3, div#contact h3, nav i {
+  .logo, ol, li a, h3, div#contact h3, nav i, .links a {
     color: #afffdf; 
   }
   
@@ -26,11 +26,11 @@ h1, h2, .copy .text, .card h4{
       color: #c0c8d4;
   }
 
-  .intro .copy h2 {
+  .intro .copy h2{
       color: #c0c8d4d6;
   }
 
-  .intro .copy p,  .one .copy h3, .one .copy .number, .two .copy .number, .two .copy h3 {
+  .intro .copy p,  .one .copy h3, .one .copy .number, .two .copy .number, .two .copy h3, .links a:hover {
       color: #f5d2a7;
   }
 

@@ -32,6 +32,11 @@
         font-size: 45px;
     }
 
+    .links a {
+        display: inline!important;
+        margin-right: 40px!important;
+    }
+
   }
 
  /* size screen: 200px and up*/
@@ -106,6 +111,21 @@
         cursor: pointer;
         transform: scale(1.1);
     }
+
+    .links a {
+        padding: 2px 0;
+        margin: 20px 0;
+        font-size: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: block;
+    }
+
+    .links i {
+        transform: rotate(-140deg);
+        margin-left: 5px;
+    }
+
 
 
     /* arrow animation */
