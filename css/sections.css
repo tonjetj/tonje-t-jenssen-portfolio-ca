@@ -45,7 +45,7 @@
         text-align: left;
     }
 
-    .one {
+    .one, .two {
         margin-top: 100px;
     }
 
