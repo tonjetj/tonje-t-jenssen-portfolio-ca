@@ -58,13 +58,21 @@ h1, h2, .copy .text, .card h4{
     font-size: 22px;
   }
 
-  h4 {
+  .card h4.first, .card h4.third {
     position: relative;
     z-index: 1;
     overflow: hidden;
     text-align: right;
 }
-h4:before, h4:after {
+
+.card h4.second {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card h4.first:before, .card h4.third:before, .card h4.first:after, .card h4.third:after {
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -73,9 +81,24 @@ h4:before, h4:after {
     content: '\a0';
     background-color: #c0c8d4d6;
 }
-h4:before {
+
+.card h4.second:before, .card h4.second:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 85%;
+  height: 1px;
+  content: '\a0';
+  background-color: #c0c8d4d6;
+}
+.card h4.first:before, .card h4.third:before {
     margin-left: -62%;
     text-align: left;
+}
+
+.card h4.second:before {
+  margin-left: 150%;
+  text-align: right;
 }
 
 
