@@ -24,31 +24,24 @@ html {
     justify-content: center;
   }
   
-  section.one, section.two, section.three { 
-    overflow: hidden;
-    justify-content: space-between;
-  }
-
-  section.one, section.two, section.three {  
-    max-width: 800px; 
-    min-height: 600px; 
-    margin-left: 100px; 
-    margin-top: 300px;
-    padding: 20px 50px 20px 20px; 
-  }
-  
-  div#about, div#work, div#contact {
-    padding: 60px 100px 100px 100px; 
-    z-index: 2;
-  }
 
 
   /*layout on smaller screens*/
-  @media (max-width: 768px){
+  @media (min-width: 768px){
+
 
     main {
-        display: flex;
-        margin: auto;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-column: 2/11;  
+        justify-content: center;
+      }
+
     }
 
+  @media (min-width: 200px){
+    main {
+        display: block;
+        margin: auto;
+    }
   }

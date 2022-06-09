@@ -13,11 +13,6 @@ h1, h2, p {
     color: #afffdf; 
   }
   
-  h1 {
-    font-size: 45px; 
-    color: #000; 
-    font-weight: 900; 
-  }
 
   div h3 {
       margin-top: 100px;
@@ -26,14 +21,20 @@ h1, h2, p {
 
   /* for intro section */
 
-  .copy h1 {
+  .intro .copy h1 {
       color: #c0c8d4;
   }
 
-  .copy h2 {
+  .intro .copy h2 {
       color: #c0c8d4d6;
   }
 
-  .copy p {
+  .intro .copy p {
       color: #f5d2a7;
+  }
+
+  /* For about section */
+
+  .one .copy h3 {
+      font-weight: lighter;
   }
