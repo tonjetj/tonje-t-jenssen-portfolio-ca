@@ -9,7 +9,7 @@ h1, h2, p {
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i {
+  .logo, ol, li a, div#work h3, div#contact h3, nav i {
     color: #afffdf; 
   }
   
@@ -29,12 +29,12 @@ h1, h2, p {
       color: #c0c8d4d6;
   }
 
-  .intro .copy p {
+  .intro .copy p,  .one .copy h3 {
       color: #f5d2a7;
   }
 
   /* For about section */
 
   .one .copy h3 {
-      font-weight: lighter;
+      font-weight: lighter; 
   }
