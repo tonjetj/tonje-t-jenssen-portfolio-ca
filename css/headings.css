@@ -33,10 +33,13 @@ h1, h2, p {
       color: #f5d2a7;
   }
 
+  .intro .copy p, .one .copy h3,  .one .copy p{
+    font-size: 17px;
+}
+
   /* For about section */
   .one .copy p, .one .copy h3 {
       display: inline;
-      font-size: 30px;
       font-weight: lighter; 
     }
   .one .copy h3 {
