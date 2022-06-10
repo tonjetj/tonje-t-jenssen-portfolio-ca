@@ -3,6 +3,7 @@
 @import "./cards.css";
 @import "./sections.css";
 @import "./headings.css";
+@import "./ui.css";
 
 @font-face {
   font-family: 'Fira Code';
