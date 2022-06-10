@@ -6,7 +6,7 @@ h1, h2, .copy .text, .card h4, .three h4{
     padding: 0;
   }
 
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p, .links a, .email-button {
+  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p, .links a, .email-button, .socials a {
     font-family: 'Fira Code', monospace;
   }
 

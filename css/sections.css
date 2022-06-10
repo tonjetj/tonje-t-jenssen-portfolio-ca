@@ -170,11 +170,11 @@
     }
 
     /*Contact section*/
-    .email {
+    .email, .socials {
         margin-top: 30px;
     }
 
-    .email-button {
+    .email-button, .socials a {
         background-color: #afffdf;
         padding: 8px 10px;
         border-radius: 5px;
@@ -182,7 +182,13 @@
         color: #0b1b32;
     }
 
-    .email-button:hover, .email-button:active {
+    .email-button:hover, .email-button:active, .socials a:hover, .socials a:active {
         background-color: #f5d2a7;
+    }
+
+    .socials i {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
     }
 }
