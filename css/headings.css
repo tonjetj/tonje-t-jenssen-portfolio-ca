@@ -10,7 +10,7 @@ h1, h2, .copy .text, .card h4{
     font-family: 'Fira Code', monospace;
   }
 
-  .logo, ol, li a, h3, div#contact h3, nav i, .links a {
+  .logo, ol, li a, nav i, .links a {
     color: #afffdf; 
   }
   
@@ -30,20 +30,19 @@ h1, h2, .copy .text, .card h4{
       color: #c0c8d4d6;
   }
 
-  .intro .copy p,  .one .copy h3, .one .copy .number, .two .copy .number, .two .copy h3, .links a:hover {
+  .intro .copy p,  .copy h3, .copy .number, .links a:hover{
       color: #f5d2a7;
   }
 
-  .intro .copy p, .one .copy h3,  .one .copy .number, .two .copy .number{
+  .intro .copy p, .copy h3, .copy .number{
     font-size: 17px;
+    display: inline;
+    font-weight: lighter; 
 }
 
   /* For about section */
-  .one .copy .number, .one .copy h3, .two .copy .number, .two .copy h3 {
-      display: inline;
-      font-weight: lighter; 
-    }
-  .one .copy h3, .two .copy h3{
+ 
+  .copy h3{
       padding-left: 10px;
   }
 
