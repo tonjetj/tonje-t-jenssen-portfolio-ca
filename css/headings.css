@@ -1,4 +1,4 @@
-h1, h2, .copy .text, .card h4{
+h1, h2, .copy .text, .card h4, .three h4{
     font-family: 'Poppins', sans-serif;
   }
   h1, h2, .copy .text{
@@ -6,7 +6,7 @@ h1, h2, .copy .text, .card h4{
     padding: 0;
   }
 
-  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p, .links a {
+  .logo, ol, li a, div#about h3, div#work h3, div#contact h3, nav i, .technologies li p, .copy p, .links a, .email-button {
     font-family: 'Fira Code', monospace;
   }
 
@@ -15,7 +15,7 @@ h1, h2, .copy .text, .card h4{
   }
   
 
-  div h3 {
+  h3 {
       margin-top: 100px;
   }
 
@@ -53,7 +53,7 @@ h1, h2, .copy .text, .card h4{
 
   /*Work section*/
 
-  .card h4{
+  .card h4, .three h4{
     font-size: 22px;
   }
 

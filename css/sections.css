@@ -44,7 +44,7 @@
   @media (min-width: 200px){
 
     /*Intro section*/
-    .intro, .one, .two {
+    .intro, .one, .two, .three {
         padding: 20px;
         min-width: 250px;
         text-align: left;
@@ -167,4 +167,22 @@
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
-}}
+    }
+
+    /*Contact section*/
+    .email {
+        margin-top: 30px;
+    }
+
+    .email-button {
+        background-color: #afffdf;
+        padding: 8px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #0b1b32;
+    }
+
+    .email-button:hover, .email-button:active {
+        background-color: #f5d2a7;
+    }
+}
