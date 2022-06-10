@@ -10,16 +10,16 @@
     transition: 0.4s ease-in;
     display: none;
     font-size: 18px;
-    border: 0.5px solid #f5d2a7;
+    border: none;
     outline: none;
-    color: #0b1b32;
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 5px;
+    background-color: #f5d2a7;
   }
 
   button i {
-    color: #f5d2a7;
+    color: #0b1b32;
   }
 
 
