@@ -19,9 +19,29 @@
     color: #0b1b32;
   }
 
-  @media (min-width: 200px){
+  @media (min-width: 800px){
+    .back-to-top {
+      right: 100px;
+    }
+    #myBtn {
+      padding: 13px 18px!important;
+    }
+  }
+
+  @media (min-width: 600px){
+    .back-to-top {
+      right: 35px;
+    }
+  }
+
+  @media (max-width: 599px){
     .back-to-top {
       right: 15px;
+    }
+  }
+
+  @media (min-width: 200px){
+    .back-to-top {
       bottom: 120px;
     }
     #myBtn {

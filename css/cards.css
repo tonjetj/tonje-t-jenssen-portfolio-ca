@@ -1,0 +1,51 @@
+@media (min-width: 700px){
+
+    .card {
+        display: inline;
+    }
+
+    .card .screenshot {
+        max-width: 500px;
+        min-height: 300px!important;
+    }
+}
+
+@media (max-width: 700px){
+
+    .card .screenshot {
+        min-width: 250px;
+        min-height: 200px;
+    }
+
+    .card .screenshot:hover {
+        opacity: 1;
+        transition: 0.3s ease-in;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+
+@media (min-width: 200px){
+        /* work section */
+
+        .card .screenshot {
+            background-size: 100%;
+            opacity: 0.4;
+            background-repeat: no-repeat;
+        }
+    
+        .links a {
+            padding: 2px 0;
+            margin: 20px 0;
+            font-size: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: block;
+        }
+    
+        .links i {
+            transform: rotate(-140deg);
+            margin-left: 5px;
+        }
+    
+}

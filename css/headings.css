@@ -13,12 +13,16 @@ h1, h2, .copy .text, .card h4, .three h4{
   .logo, ol, li a, nav i, .links a {
     color: #afffdf; 
   }
-  
 
   h3 {
-      margin-top: 100px;
-  }
+    margin-top: 100px;
+}
 
+
+.copy h3{
+  padding-left: 10px;
+}
+  
 
   /* for intro section */
 
@@ -35,70 +39,133 @@ h1, h2, .copy .text, .card h4, .three h4{
   }
 
   .intro .copy p, .copy h3, .copy .number{
-    font-size: 17px;
     display: inline;
     font-weight: lighter; 
 }
 
-  /* For about section */
- 
-  .copy h3{
-      padding-left: 10px;
-  }
-
- .copy .text {
-     margin-top: 20px;
-     font-size: 15px;
-  }
-
   /*Work section*/
 
-  .card h4, .three h4{
-    font-size: 22px;
-  }
 
-  .card h4.first, .card h4.third {
+  .card h4.first, .card h4.third, .card h4.second {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    text-align: right;
+}
+
+.card h4.first, .card h4.third {
+  text-align: right;
 }
 
 .card h4.second {
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
   text-align: left;
 }
 
-.card h4.first:before, .card h4.third:before, .card h4.first:after, .card h4.third:after {
+.card h4.first:before, .card h4.third:before, .card h4.first:after, .card h4.third:after, .card h4.second:before, .card h4.second:after{
     position: absolute;
     top: 51%;
     overflow: hidden;
-    width: 45%;
     height: 1px;
     content: '\a0';
     background-color: #c0c8d4d6;
 }
 
-.card h4.second:before, .card h4.second:after {
-  position: absolute;
-  top: 51%;
-  overflow: hidden;
-  width: 85%;
-  height: 1px;
-  content: '\a0';
-  background-color: #c0c8d4d6;
-}
 .card h4.first:before, .card h4.third:before {
-    margin-left: -62%;
     text-align: left;
 }
 
 .card h4.second:before {
-  margin-left: 150%;
   text-align: right;
 }
 
+
+@media (min-width: 700px){
+
+  .intro h1 {
+    font-size: 50px;
+  }
+
+  .intro h2 {
+    font-size: 30px; 
+  }
+
+  /* for intro section */
+
+
+.intro .copy p, .copy h3, .copy .number{
+  font-size: 20px;
+}
+
+/* For about section */
+
+.copy .text {
+ margin-top: 30px;
+ font-size: 17px;
+ font-weight: 300;
+}
+
+/*Work section*/
+
+.card h4, .three h4{
+  font-size: 22px;
+}
+
+.card h4.first:before, .card h4.third:before, .card h4.first:after, .card h4.third:after {
+  width: 100%;
+}
+
+.card h4.second:before, .card h4.second:after {
+width: 35%;
+}
+.card h4.first:before, .card h4.third:before {
+  margin-left: -105%;
+}
+
+.card h4.second:before {
+margin-left: -100%;
+}
+
+}
+
+@media (max-width: 700px){
+
+
+
+/* for intro section */
+
+
+.intro .copy p, .copy h3, .copy .number{
+  font-size: 17px;
+}
+
+/* For about section */
+
+
+.copy .text {
+   margin-top: 20px;
+   font-size: 15px;
+}
+
+/*Work section*/
+
+.card h4, .three h4{
+  font-size: 22px;
+}
+
+.card h4.first:before, .card h4.third:before, .card h4.first:after, .card h4.third:after {
+  width: 45%;
+}
+
+.card h4.second:before, .card h4.second:after {
+width: 85%;
+}
+.card h4.first:before, .card h4.third:before {
+  margin-left: -62%;
+}
+
+.card h4.second:before {
+margin-left: 150%;
+}
+
+}
 
  
