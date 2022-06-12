@@ -39,6 +39,8 @@
 
   }
 
+
+
  /* size screen: 200px and up*/
   
   @media (min-width: 200px){
@@ -50,7 +52,7 @@
         text-align: left;
     }
 
-    .one, .two {
+    .one, .two, .three {
         margin-top: 100px;
     }
 
@@ -126,48 +128,48 @@
         margin-left: 5px;
     }
 
-
-
     /* arrow animation */
     .arrow{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    }
+        margin-top: 50px;
+        position: absolute;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        }
 
     .arrow span{
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 1px solid #afffdf;
-    border-right: 1px solid #afffdf;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
-    }
-
-    .arrow span:nth-child(2){
-    animation-delay: -0.4s;
-    }
-
-    .arrow span:nth-child(3){
-    animation-delay: -0.4s;
-    }
-
-    @keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-    }
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 1px solid #afffdf;
+        border-right: 1px solid #afffdf;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+        }
+    
+        .arrow span:nth-child(2){
+        animation-delay: -0.4s;
+        }
+    
+        .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+        }
+    
+        @keyframes animate {
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px,-20px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(20px,20px);
+        }
+        }
+   
 
     /*Contact section*/
     .email, .socials {
