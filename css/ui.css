@@ -1,7 +1,5 @@
 .back-to-top {
     position: fixed;
-    bottom: 80px;
-    right: 20px;
     z-index: 99;
     transition: 0.5s ease-in;
 }
@@ -13,13 +11,22 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 50%;
     background-color: #f5d2a7;
   }
 
   button i {
     color: #0b1b32;
+  }
+
+  @media (min-width: 200px){
+    .back-to-top {
+      right: 15px;
+      bottom: 170px;
+    }
+    #myBtn {
+      padding: 12px 15px;
+    }
   }
 
 
