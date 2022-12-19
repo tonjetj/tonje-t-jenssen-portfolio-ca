@@ -5,221 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-    name="description"
-    content="Tonje T. Jenssen's portfolio and what she has designed for the web."
-  />
+      name="description"
+      content="Tonje T. Jenssen's portfolio and what she has designed for the web."
+    />
     <title>Tonje T. Jenssen</title>
-    <link rel="stylesheet" href="/dist/css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/styles.css" /> -->
-    <script src="https://kit.fontawesome.com/d89489d807.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/dist/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/d89489d807.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="bg-primary">
     <header>
-      <nav class="nav">
-        <a href="index.html"
-          ><img class="logo" src="./logo/TJ_hexagon.png" alt="logo"
-        /></a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"
-          ><span class="navicon"></span
-        ></label>
-        <ul class="menu">
-          <li>
-            <a href="#one"  id="anchor">01. About Me</a>
-          </li>
-          <li><a href="#two"  id="anchor">02. Work</a></li>
-          <li>
-            <a href="#three"  id="anchor">03. Contact</a>
-          </li>
-        </ul>
+      <nav
+        class="d-flex navbar navbar-expand-md navbar-dark fixed-top bg-primary shadow py-2"
+      >
+        <a class="navbar-brand me-auto" href="/">
+          <img
+            src="/images/logo/TJ_hexagon.png"
+            alt="logo"
+            width="40"
+            height="35"
+            class="mx-3"
+          />
+        </a>
+        <button
+          class="mx-3 navbar-toggler collapsed border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span id="hamburgerMenu" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
-    <main>
-
-      <div class="progress-container">
-        <div class="vertical-line" id="myBar"></div>
-    </div>  
-    <div class="progress-container two">
-      <div class="vertical-line" id="myBar"></div>
-  </div> 
-
-    <p class="indicator one">01.</p>
-    <p class="indicator two">02.</p>
-    <p class="indicator three">03.</p>
-
-
-      <section class="intro">
-        <div class="copy">
-          <p>Hi, my name is</p>
-          <h1>Tonje Totland <br>Jenssen.</br></h1>
-          <h2>I study Front-End<br> Development.</br></h2>
-          <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
-        </div>
-      </section>
-
-      <div id="one"></div>
-      <section class="one">
-        <div id="about" class="copy">
-          <p class="number">01.</p>
-          <h3>About Me</h3>
-          <p class="text">
-            Hi! My name is Tonje and I'm currently in the learning curve of becoming a software developer. 
-          </p>
-          <p class="text"> 
-            I enjoy using my creativity to develop and create stuff for the web. My journey studying and learning Front-End started back in August 2021 when I was ready for new challenges in my life. I love how I'm able to use my creativity to create stuff for the web as well as constantly learning and grow each day!  
-          </p>
-          <p class="text">
-            My main focus is trying to build accessible, responsive, neat and inclusive websites/products, and create the best digital experience for all kinds of users. 
-          </p>
-          <p class="text">
-            Here are some of the technologies I've learned to use and worked with this past year as a student: 
-          </p>
-          <ul class="technologies">
-          <li><img src="./other/html.png" alt="html logo"><p>HTML</p></li>
-          <li><img src="./other/css-3.png" alt="css logo"><p>CSS</p></li>
-          <li><img src="./other/java-script.png" alt="javascript logo"><p>JavaScript</p></li>
-          <li><img src="./other/github-big-logo.png" alt="github logo"><p>GitHub</p></li>
-          <li><img src="./other/wordpress-logo.png" alt="wordpress logo"><p>WordPress</p></li>
-          </ul>
-        </div>
-      </section>
-
-
-      <div id="two"></div>
-      <section class="two">
-        <div id="work" class="copy">
-          <p class="number">02.</p>
-          <h3>Work</h3>
-          <p class="text">
-            Here are some of the projects and works I've done so far during my two semesters at Noroff: 
-          </p>
-
-          <div class="card">
-            <h4 class="first">Rainydays</h4>
-            <div class="screenshot" style="background-image: url('./screenshots/rainydays_ss.jpg');">
-            </div>
-            <p class="text">
-              A website for a company called Rainydays selling durable rainjackets. Neutral theme with colours resembling nature. Built in VS Code and deployed on Netlify. 
-            </p>
-            <p class="text">
-              Technology used for this project: 
-            </p>
-            <ul class="technologies">
-              <li><img src="./other/html.png" alt="html logo"><p>HTML</p></li>
-              <li><img src="./other/css-3.png" alt="css logo"><p>CSS</p></li>
-              <li><img src="./other/github-big-logo.png" alt="github logo"><p>GitHub</p></li>
-              </ul>
-              <div class="links">
-                <a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-tonjetj.git">
-                  project on github<i class="fa fa-arrow-down"></i>
-                </a>
-                <a href="https://cocky-goldstine-2e785d.netlify.app/">
-                  project website<i class="fa fa-arrow-down"></i>
-                </a>
-              </div>
-          </div>
-
-          <div class="card">
-            <h4 class="second">Community Science Museum</h4>
-            <div class="screenshot" style="background-image: url('./screenshots/exam_project_ss.jpg');">
-            </div>
-            <p class="text">
-              This is a website for a museum called Community Science Museum. Built with HTML, CSS and JavaScript. 
-            </p>
-            <p class="text">
-              Technology used for this project: 
-            </p>
-            <ul class="technologies">
-              <li><img src="./other/html.png" alt="html logo"><p>HTML</p></li>
-              <li><img src="./other/css-3.png" alt="css logo"><p>CSS</p></li>
-              <li><img src="./other/github-big-logo.png" alt="github logo"><p>GitHub</p></li>
-              </ul>
-              <div class="links">
-                <a href="https://github.com/tonjetj/Semester-Project.git">
-                  project on github<i class="fa fa-arrow-down"></i>
-                </a>
-              </div>
-          </div>
-
-          <div class="card">
-            <h4 class="third">Life Abroad</h4>
-            <div class="screenshot" style="background-image: url('./screenshots/exam_ss_desktop.jpg');">
-            </div>
-            <p class="text">
-              A travel blog named Life Abroad that contains a minimalistic colour theme. Built with HTML, CSS and JavaScript. Deployed on Netlify and fetched REST APIs created in WordPress. 
-            </p>
-            <p class="text">
-              Technology used for this project: 
-            </p>
-            <ul class="technologies">
-              <li><img src="./other/html.png" alt="html logo"><p>HTML</p></li>
-              <li><img src="./other/css-3.png" alt="css logo"><p>CSS</p></li>
-              <li><img src="./other/java-script.png" alt="javascript logo"><p>JavaScript</p></li>
-              <li><img src="./other/github-big-logo.png" alt="github logo"><p>GitHub</p></li>
-              <li><img src="./other/wordpress-logo.png" alt="wordpress logo"><p>WordPress</p></li>
-              </ul>
-              <div class="links">
-                <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-tonjetj.git">
-                  project on github<i class="fa fa-arrow-down"></i>
-                </a>
-                <a href="https://lively-macaron-17f943.netlify.app/">
-                  project website<i class="fa fa-arrow-down"></i>
-                </a>
-              </div>
-        </div>
-      </section>
-
-
-      <div id="three"></div>
-      <section class="three">
-        <div id="contact" class="copy">
-          <p class="number">03.</p>
-          <h3>Contact</h3>
-          <h4>Get in touch!</h4>
-          <p class="text">
-            I'm always looking for new opportunities, my inbox is always open. If you have a question or just want to say hi, I'll try my best to get back to you. 
-          </p>
-          <p class="text">
-            Send me an email: 
-          </p>
-          <div class="email">
-            <a class="email-button" href= "mailto:tontotjen@gmail.com"><i class="fa fa-envelope"></i> Mail me</a>
-          </div>
-          <p class="text other">
-            You can also reach me on both LinkedIn and GitHub. 
-          </p>
-          <div class="socials">
-            <a class="git" href="https://github.com/tonjetj"><i class="fa fa-github-square"></i> GitHub</a>
-            <a class="linked" href="https://www.linkedin.com/in/tonje-totland-jenssen-1b6209a4"><i class="fa fa-linkedin"></i> LinkedIn</a>
-          </div>
-        </div>
-      </section>
-
-      <div class="back-to-top">
-        <button id="myBtn" title="Go to top">
-          <i class="fa fa-angle-up"></i>
-        </button>
-      </div>
-
-      
-
-    </main>
-    <footer>
-      <div class="footer-content">    
-        &copy; Tonje Totland Jenssen
-        <p class="text">
-          tontotjen@gmail.com
-        </p></div>
+    <main></main>
+    <footer class="text-white">
+      &copy; Tonje Totland Jenssen
+      <p class="text">tontotjen@gmail.com</p>
     </footer>
 
-    <script src="./js.js"></script>
+    <script
+      src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
   </body>
 </html>
