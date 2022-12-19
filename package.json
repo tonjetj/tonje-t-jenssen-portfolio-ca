@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio as a student at Noroff.",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonjetj/tonje-t-jenssen-portfolio-ca.git"
+  },
+  "keywords": [
+    "portfolio",
+    "sass",
+    "bootstrap",
+    "html",
+    "javascript"
+  ],
+  "author": "Tonje T. Jenssen <tontotjen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonjetj/tonje-t-jenssen-portfolio-ca/issues"
+  },
+  "homepage": "https://github.com/tonjetj/tonje-t-jenssen-portfolio-ca#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.57.0"
+  }
+}
